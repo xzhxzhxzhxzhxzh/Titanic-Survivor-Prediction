@@ -22,4 +22,4 @@ The feature description is shown here.
 * `titanic` : The default folder to save from [Kaggle](https://www.kaggle.com/c/titanic) downloaded datasets
 * `titanic.ipynb` : A IPython Notebook to train model
 
-## Result evaluation
+## Result
