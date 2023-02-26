@@ -19,17 +19,7 @@ The feature description is shown here.
 * Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
 ## File Description
-* `data` : The default folder to save downloaded datasets.
-* `data_preparation` : The folder consists of Python files to acquire data and generate transformed dataset.
-* `logs` : The default folder to save logs.
-* `models` : The folder consists of different models. 
-* `outputs` : The default folder to save trained models.
-* `training_and_testing` : The folder consists of Python files to define a training/testing process.
-* `utilities` : The folder consists of tools to generate logs, to visualize training results etc.
-
-&emsp;
-* `main.py` : Specify which datasets you want to learn, then you can start training.
-* `cifar10.ipynb` : A IPython Notebook to train models on CIFAR10.
-* `mnist.ipynb` : A IPython Notebook to train models on MNIST.
+* `titanic` : The default folder to save from [Kaggle](https://www.kaggle.com/c/titanic) downloaded datasets
+* `titanic.ipynb` : A IPython Notebook to train model
 
 ## Result evaluation
