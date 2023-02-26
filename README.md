@@ -1,23 +1,22 @@
 # Titanic-Survivor-Prediction
-Kaggle project: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
+Kaggle competition: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
-This is a famous project on Kaggle. The propose of this project is to create a model to predict which passengers survived the Titanic shipwreck, where **feature engineering** is the most important and challenge part. This project was completed with **[scikit-learn](https://scikit-learn.org/stable/)** and the model reached **80%** accuracy in the test data.
+This is a famous competition on Kaggle. The propose of this competition is to create a model to predict which passengers survived the Titanic shipwreck, where **feature engineering** is the most important and challenge part. This project was completed with **[scikit-learn](https://scikit-learn.org/stable/)** and the model reached **80%** accuracy in the test data.
 
-## Task Introduction
-Using the Titanic dataset from this Kaggle competition.
+## Dataset Introduction
+On April 15, 1912, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. Translated 32% survival rate. One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class. The goal is to predict the survival of 418 passengers using the information from other 891 passengers.
 
-This dataset contains information about 891 people who were on board the ship when departed on April 15th, 1912. As noted in the description on Kaggle's website, some people aboard the ship were more likely to survive the wreck than others. There were not enough lifeboats for everybody so women, children, and the upper-class were prioritized. Using the information about these 891 passengers, try to build a model to predict which people would survive based on the following fields:
-
-Name (str) - Name of the passenger
-Pclass (int) - Ticket class
-Sex (str) - Sex of the passenger
-Age (float) - Age in years
-SibSp (int) - Number of siblings and spouses aboard
-Parch (int) - Number of parents and children aboard
-Ticket (str) - Ticket number
-Fare (float) - Passenger fare
-Cabin (str) - Cabin number
-Embarked (str) - Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+The feature description is shown here.
+* Name: Name of the passenger
+* Pclass: Ticket class
+* Sex: Sex of the passenger
+* Age: Age in years
+* SibSp: Number of siblings and spouses aboard
+* Parch: Number of parents and children aboard
+* Ticket: Ticket number
+* Fare: Passenger fare
+* Cabin: Cabin number
+* Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
 ## File Description
 * `data` : The default folder to save downloaded datasets.
