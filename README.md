@@ -23,3 +23,4 @@ The feature description is shown here.
 * `titanic.ipynb` : A IPython Notebook to train model
 
 ## Result
+Got 79% accuracy on test data.
